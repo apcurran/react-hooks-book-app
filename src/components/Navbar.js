@@ -5,9 +5,9 @@ export default function Navbar() {
     const { books } = useContext(BookContext);
 
     return (
-        <div className="navbar">
-            <h1>Ninja Reading List</h1>
+        <nav className="navbar">
+            <h1 className="navbar__title">Ninja Reading List</h1>
     <p>You currently have { books.length } books to read...</p>
-        </div>
+        </nav>
     )
 }
