@@ -7,7 +7,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <h1 className="navbar__title">Ninja Reading List</h1>
-    <p>You currently have { books.length } books to read...</p>
+    <p>You currently have { books.length } book(s) to read...</p>
         </nav>
     )
 }
